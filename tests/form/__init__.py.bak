@@ -8,12 +8,10 @@
 """
 
 
-
-
-from .object import TestObjectProperties, TestObjectFeatures
+from __future__ import absolute_import
+from .inheritance import TestHTML
 
 
 __all__ = [
-    'TestObjectProperties',
-    'TestObjectFeatures',
+    'TestHTML',
 ]

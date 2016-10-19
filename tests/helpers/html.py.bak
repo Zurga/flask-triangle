@@ -8,8 +8,8 @@
 """
 
 
-
-
+from __future__ import absolute_import
+from __future__ import unicode_literals
 
 import unittest
 
@@ -96,7 +96,7 @@ class HTMLAttrsTest(unittest.TestCase):
             'dash-syntax': 'yeah',
         }
 
-        for k, v in list(self.attr.items()):
+        for k, v in self.attr.items():
             self.assertIn(
                 k, ['attribute', 'boolean', 'camel-case', 'dash-syntax']
             )

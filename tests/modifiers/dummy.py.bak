@@ -10,8 +10,8 @@
 """
 
 
-
-
+from __future__ import absolute_import
+from __future__ import unicode_literals
 
 from flask_triangle.widgets.widget import Widget
 from flask_triangle.schema import String

@@ -8,12 +8,8 @@
 """
 
 
+from __future__ import absolute_import
+from .html import HTMLAttrsTest
 
 
-from .object import TestObjectProperties, TestObjectFeatures
-
-
-__all__ = [
-    'TestObjectProperties',
-    'TestObjectFeatures',
-]
+__all__ = ['HTMLAttrsTest']
